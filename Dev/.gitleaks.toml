@@ -1,0 +1,8 @@
+[[rules]]
+id = "terraform-password"
+
+description = "Terraform password"
+
+regex = '''(?i)(password|admin_password|client_secret|secret|token)\s*=\s*".+"'''
+
+tags = ["terraform", "password"]
