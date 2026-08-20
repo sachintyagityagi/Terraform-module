@@ -1,4 +1,3 @@
-#module
 module "resource_group" {
   source = "../Module/resource_group"
   RG     = var.RG
